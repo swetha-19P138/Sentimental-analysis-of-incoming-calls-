@@ -1,0 +1,58 @@
+<html>
+<head>
+<body>
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B4C4E0 ;
+  border: none;
+  color: #00000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h1 {text-align: center;}
+h3 {text-align: center;}
+</style>
+<body bgcolor="#BOC4DE">
+<h1>
+<img src="C:\Users\Admin\Pictures\Camera Roll\inquire.jpg">
+ </h1>
+<h3>
+
+<a href="file:///C:/Users/Admin/Pictures/Camera%20Roll/Inquire/in.html"><button class="button" style="vertical-align:middle"><span><B>START</B> </span></button>
+</a>
+</h3>
+</body>
+</head>
+</html>
